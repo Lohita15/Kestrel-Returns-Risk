@@ -1,0 +1,160 @@
+{
+ "threshold": 0.13,
+ "products": {
+  "KH-AF-01": {
+   "family": "Air Fryer",
+   "list_price": 5199
+  },
+  "KH-AF-02": {
+   "family": "Air Fryer",
+   "list_price": 6499
+  },
+  "KH-AF-03": {
+   "family": "Air Fryer",
+   "list_price": 8773
+  },
+  "KH-MG-01": {
+   "family": "Mixer Grinder",
+   "list_price": 3199
+  },
+  "KH-MG-02": {
+   "family": "Mixer Grinder",
+   "list_price": 3999
+  },
+  "KH-MG-03": {
+   "family": "Mixer Grinder",
+   "list_price": 5398
+  },
+  "KH-WP-01": {
+   "family": "Water Purifier",
+   "list_price": 11999
+  },
+  "KH-WP-02": {
+   "family": "Water Purifier",
+   "list_price": 14999
+  },
+  "KH-WP-03": {
+   "family": "Water Purifier",
+   "list_price": 20248
+  },
+  "KH-RV-01": {
+   "family": "Robot Vacuum",
+   "list_price": 17599
+  },
+  "KH-RV-02": {
+   "family": "Robot Vacuum",
+   "list_price": 21999
+  },
+  "KH-RV-03": {
+   "family": "Robot Vacuum",
+   "list_price": 29698
+  },
+  "KH-IC-01": {
+   "family": "Induction Cooktop",
+   "list_price": 2399
+  },
+  "KH-IC-02": {
+   "family": "Induction Cooktop",
+   "list_price": 2999
+  },
+  "KH-IC-03": {
+   "family": "Induction Cooktop",
+   "list_price": 4048
+  },
+  "KH-CF-01": {
+   "family": "Ceiling Fan",
+   "list_price": 2799
+  },
+  "KH-CF-02": {
+   "family": "Ceiling Fan",
+   "list_price": 3499
+  },
+  "KH-CF-03": {
+   "family": "Ceiling Fan",
+   "list_price": 4723
+  },
+  "KH-RH-01": {
+   "family": "Room Heater",
+   "list_price": 1999
+  },
+  "KH-RH-02": {
+   "family": "Room Heater",
+   "list_price": 2499
+  },
+  "KH-RH-03": {
+   "family": "Room Heater",
+   "list_price": 3373
+  }
+ },
+ "states": [
+  "DL",
+  "KA",
+  "MH",
+  "MP",
+  "RJ",
+  "TN",
+  "TS",
+  "UP"
+ ],
+ "cat_avg_contribution": {
+  "payment_mode": -0.01590885037943478,
+  "sales_channel": 0.033211912166812685,
+  "sku": 0.000990578024833203,
+  "family": 4.2954997955460886e-05,
+  "state": 0.036245932348748365
+ },
+ "overall_return_rate": 0.1142,
+ "rates": {
+  "payment_mode": {
+   "prepaid_card": 0.0882,
+   "prepaid_upi": 0.0768,
+   "emi": 0.0908,
+   "cod": 0.1881
+  },
+  "sales_channel": {
+   "app": 0.1075,
+   "partner_outlet": 0.0909,
+   "marketplace": 0.1356,
+   "web": 0.1117
+  },
+  "family": {
+   "Air Fryer": 0.1201,
+   "Ceiling Fan": 0.0666,
+   "Room Heater": 0.1167,
+   "Robot Vacuum": 0.195,
+   "Induction Cooktop": 0.0827,
+   "Mixer Grinder": 0.0675,
+   "Water Purifier": 0.1482
+  },
+  "shield": {
+   "Y": 0.1861,
+   "N": 0.0938
+  },
+  "gift": {
+   "Y": 0.1653,
+   "N": 0.1105
+  },
+  "prior_return": {
+   "has_any": 0.27,
+   "none": 0.0906
+  },
+  "long_delivery_7plus": {
+   "yes": 0.169,
+   "no": 0.099
+  },
+  "discount_20plus": {
+   "yes": 0.1604,
+   "no": 0.1092
+  },
+  "value_10k_plus": {
+   "yes": 0.1692,
+   "no": 0.0921
+  }
+ },
+ "economics": {
+  "return_cost_inr": 1150,
+  "call_cost_inr": 45,
+  "call_prevention_rate": 0.35,
+  "hold_cancel_rate": 0.12
+ }
+}
